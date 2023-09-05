@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include qp_information_security *.css
+recursive-include qp_information_security *.csv
+recursive-include qp_information_security *.html
+recursive-include qp_information_security *.ico
+recursive-include qp_information_security *.js
+recursive-include qp_information_security *.json
+recursive-include qp_information_security *.md
+recursive-include qp_information_security *.png
+recursive-include qp_information_security *.py
+recursive-include qp_information_security *.svg
+recursive-include qp_information_security *.txt
+recursive-exclude qp_information_security *.pyc
